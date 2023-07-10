@@ -5,7 +5,7 @@ import _ from 'lodash';
 const iframe = document.getElementById('vimeo-player');
 const player = new Player(iframe);
 
-//Declaring throttle as a variable to use later//
+//Declaring throttle as a variable to use later
 const throttler = _.throttle;
 // Records video playback time to local storage//
 function savePlaybackTime(time) {
